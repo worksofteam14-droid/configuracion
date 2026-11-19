@@ -1,0 +1,8 @@
+runtime: php84
+
+handlers:
+  - url: /assets
+    static_dir: public/assets
+
+  - url: /.*
+    script: auto
